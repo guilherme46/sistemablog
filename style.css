@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body {
+  background: #dfe4e6;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Menus */
+#main-container {
+  background: #fff;
+  width: 1200px;
+  height: 600px;
+  margin: 40px auto;
+  border-radius: 5px;
+}
+
+#logo {
+  background: #45a7b9;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px 0 0 0;
+  padding: 26px 40px 27px !important;
+}
+
+#top-menu {
+  background: #374249;
+  width: 100%;
+  height: 70px;
+  border-radius: 5px 5px 0 0;
+}
+
+#top-menu-left a,
+#top-menu-right a {
+  border-right: solid #465157 1px;
+  color: #727b7f;
+  display: block;
+  float: left;
+  font-size: 14px;
+  padding: 4px 40px 4px;
+  text-decoration: none;
+  position: relative;
+  top: 21px;
+}
+
+#top-menu-left a:hover,
+#top-menu-right a:hover {
+  color: #fff;
+}
+
+.active {
+  color: #fff;
+  border-bottom: 3px solid #45a7b9;
+  padding: 0 5px 3px;
+}
+
+#top-menu-right {
+  float: right;
+}
+
+#new-ticket {
+  background: #ec7b65;
+  border-radius: 50px;
+  color: #fff !important;
+  margin-left: 50px;
+  padding: 10px 20px !important;
+  text-transform: uppercase;
+  font-size: 12px !important;
+  position: relative;
+  top: 17px !important;
+}
+
+#new-ticket:hover {
+  background: #f7826c;
+}
+
+#new-ticket .fa {
+  margin-left: 5px;
+}
+
+/* Left Column */
+#left-column {
+  border-right: solid 1px #edf0f1;
+  font-size: 13.5px;
+  float: left;
+  width: 250px;
+  height: 450px;
+  padding: 40px;
+}
+
+.column-heading {
+  color: #aab4b5;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.vertical-menu {
+  width: 250px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.vertical-menu a {
+  color: #aab3b5;
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.vertical-menu a:hover {
+  color: #727c80;
+}
+
+.vertical-menu a.active {
+  color: #727c80;
+  border: none;
+}
+
+.vertical-menu a.highlight {
+  color: #45a7b9;
+}
+
+.side-menu-item {
+  margin-left: 22px;
+  width: 228px !important;
+}
+
+.highlight .fa,
+.menu-icon .fa {
+  margin-right: 10px;
+  margin-left: -8px;
+  margin-bottom: 7px;
+}
+
+.num {
+  float: right;
+}
+
+/* Content Area */
+#content-area {
+  width: 869px;
+  height: 530px;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+#message-options {
+  border-bottom: solid 1px #f2f4f5;
+  width: 100%;
+  height: 106px;
+}
+
+#message-options a {
+  color: #aab4b5;
+}
+
+#message-options a:hover {
+  color: #32b287;
+}
+
+#options-left {
+  padding: 45px 30px;
+  float: left;
+  width: 280px;
+}
+
+#options-right {
+  color: #727c80;
+  padding: 45px 35px;
+  float: right;
+  width: 220px;
+  text-align: right;
+}
+
+#sorted-by {
+  cursor: pointer;
+}
+
+.option-link {
+  border: solid 2px #dfe4e6;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.option-link:hover {
+  border: solid 2px #32b287;
+}
+
+.square,
+.trash,
+.user {
+  padding: 10px 12px;
+}
+
+.flag {
+  padding: 10px 10px;
+}
+
+.tag {
+  padding: 10px 11px;
+}
+
+.message-row {
+  border-bottom: solid 1px #f2f4f5;
+  padding: 20px 30px 30px;
+}
+
+.message-row img {
+  border-radius: 100px;
+  border: solid 2px #fff;
+  box-shadow: 0px 0px 5px #259d75;
+  float: left;
+  margin-right: 15px;
+}
+
+.sender-name {
+  color: #475259;
+  font-weight: 700;
+}
+
+.message {
+  position: relative;
+  top: 5px;
+}
+
+/*.active-message,*/
+.message-row:hover {
+  background: #f3f5f6;
+  cursor: pointer;
+}
+
+.label {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 1px 8px;
+  border-radius: 50px;
+}
+
+.label-left {
+  margin-right: 6px;
+}
+
+.label-right {
+  margin-left: 6px;
+}
+
+.blue-label {
+  background: #45a7b9;
+}
+
+.grey-label {
+  background: #687377;
+}
+
+.red-label {
+  background: #ec7b65;
+}
+
+#credit {
+  color: #76838c;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+}
+
+:root{
+  --main: #333;
+  --bg: #f9f9f9;
+  --accent: steelblue;
+}
+
+*, *::before, *::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--main);
+  font-family: Roboto, sans-serif;
+}
+
+/* Basic Styling */
+/* My Styles */
+form {
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0px rgba(0,0,0,.14), 0px 1px 3px 0px rgba(0,0,0,.12);
+  transition: box-shadow .25s ease-out;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 2rem;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0px rgba(0,0,0,.14), 0px 1px 3px 0px rgba(0,0,0,.12);
+  transition: box-shadow .25s ease-out;
+
+  border-radius: 2px;
+  background-color: #28a745;
+  padding: .25rem .5rem;
+  width: 300px;
+  font-size: 18px;
+  color: var(--bg);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,.2), 0px 8px 10px 1px rgba(0,0,0,.14), 0px 3px 14px 2px rgba(0,0,0,.12); 
+}
+
+/* Their Styles */
+.group { 
+  position:relative; 
+  margin-bottom:45px;
+}
+
+textarea {
+  background: url(images/benice.png) center center no-repeat; /* This ruins default border */
+  border: 1px solid #888; 
+}
+
+input {
+  font-size:13px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus {
+  outline:none;
+  border-bottom: 2px solid var(--accent);
+}
+
+/* Label */
+label {
+  color: #999;
+  font-size: 18px;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: .2s ease all;
+}
+
+/* Label Active State */
+input:focus ~ label, input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: var(--accent);
+}
+
+/* Footer Styles */
+.footer{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.heart{color: var(--accent)}
